@@ -1,0 +1,68 @@
+{
+  "ultimo_id": 12,
+  "productos": [
+    {
+      "id": 2,
+      "nombre": "Laptop Gamer",
+      "marca": "Samsung",
+      "precio": 1000.72,
+      "stock": 32
+    },
+    {
+      "id": 4,
+      "nombre": "Tablet 10 pulgadas",
+      "marca": "Xiaomi",
+      "precio": 1229.04,
+      "stock": 50
+    },
+    {
+      "id": 5,
+      "nombre": "Auriculares Bluetooth",
+      "marca": "Canon",
+      "precio": 969.87,
+      "stock": 23
+    },
+    {
+      "id": 6,
+      "nombre": "Cámara Digital",
+      "marca": "Apple",
+      "precio": 602.51,
+      "stock": 43
+    },
+    {
+      "id": 7,
+      "nombre": "Teclado Mecánico",
+      "marca": "Samsung",
+      "precio": 129.39,
+      "stock": 14
+    },
+    {
+      "id": 8,
+      "nombre": "Monitor 24 pulgadas",
+      "marca": "LG",
+      "precio": 1457.97,
+      "stock": 49
+    },
+    {
+      "id": 9,
+      "nombre": "Mouse Inalámbrico",
+      "marca": "Samsung",
+      "precio": 928.58,
+      "stock": 23
+    },
+    {
+      "id": 10,
+      "nombre": "Impresora Multifunción",
+      "marca": "Xiaomi",
+      "precio": 1343.96,
+      "stock": 30
+    },
+    {
+      "nombre": "julio",
+      "marca": "prueba",
+      "precio": 371.06,
+      "stock": 11,
+      "id": 11
+    }
+  ]
+}

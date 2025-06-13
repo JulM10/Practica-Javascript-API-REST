@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <script type="module" src="../js/editar.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/">Inicio</a>
+            <a href="index.html">Listado Productos</a>
+            <a href="alta.html">Alta Producto</a>
+        </nav>
+    </header>
+    <hr>
+    <main>
+
+        <h1>Productos</h1>
+        <h2>Editar</h2>
+        <div class="eliminar-registro">
+            <button class="boton-eliminar" id="eliminar-registro">Eliminar registro</button>
+        </div>
+        <div class="mensajes" id="mensajes"></div>
+        <section>
+            <form id="form-editar">
+                <label for="nombre">
+                    NOMBRE
+                    <input type="text" name="nombre" id="nombre" required>
+                </label>
+                <label for="marca">
+                    MARCA
+                    <input type="text" name="marca" id="marca" required>
+                </label>
+                <label for="precio">
+                    PRECIO
+                    <input type="text" name="precio" id="precio" required>
+                </label>
+                <label for="stock">
+                    STOCK
+                    <input type="number" name="stock" id="stock" step="1" required>
+                </label>
+                <button type="submit">Modificar</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
